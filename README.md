@@ -1,31 +1,104 @@
-# Mabini, Batangas Tourism Landing Page
+# Discover Mabini – The Heart of Batangas Adventures
 
-## Project Overview
-This project is a responsive landing page that highlights the tourism attractions, natural beauty, and local culture of **Mabini, Batangas**. It promotes destinations such as **Anilao Diving Spots**, **Mt. Gulugod Baboy**, **Sea Spring Resort**, and **local delicacies** through a modern, nature-inspired design.
+This project is a modern, responsive tourism website designed to promote Mabini, Batangas. It features an immersive hero section, detailed attraction showcases, cultural highlights, and an integrated travel planning map. The layout is fully responsive and built using HTML, CSS, Bootstrap, and JavaScript.
+
+The site includes smooth scrolling, mobile menu behavior, dynamic active-state navigation, and a clean, accessible UI.
+
+---
+
+## Live Demo
+Add your deployed link here.
+
+**Live Preview:** https://your-live-demo-link  
+**Repository:** This repository
+
+---
 
 ## Features
-- Responsive layout for desktop and mobile devices  
-- Animated video banner with gradient text effect  
-- Interactive navigation bar with scroll-based highlights  
-- Attractions grid with hover animations  
-- Culture and local life section with images and short descriptions  
-- Embedded Google Map showing Mabini’s location  
-- Contact section with social media links  
-- Smooth transitions and modern design elements  
+
+### Hero and Visual Experience
+- Fullscreen hero section with autoplay video and gradient overlay  
+  (implemented in **index.html** :contentReference[oaicite:0]{index=0})
+
+### Attractions Section
+- Grid layout showcasing diving spots, mountains, resorts, and local delicacies
+
+### Culture and Local Life
+- Highlighted content showing marine conservation, culinary heritage, and island traditions
+
+### Visit Planning
+- Embedded Google Maps iframe for travel guidance and planning  
+  (located in **index.html** :contentReference[oaicite:1]{index=1})
+
+### Navigation and Interactivity
+- Auto-closing mobile navigation
+- Scroll-based active link highlighting
+- Header style change on scroll  
+  (controlled by **script.js** :contentReference[oaicite:2]{index=2})
+
+### Styling and Layout
+- Custom color system, gradients, and typography  
+  (defined in **styles.css** :contentReference[oaicite:3]{index=3})
+- Responsive design using Bootstrap 5 utility classes
+
+---
 
 ## Technologies Used
-- **HTML5** – for page structure  
-- **CSS3 / Tailwind-based styles** – for layout and responsive design  
-- **JavaScript** – for interactivity and dynamic effects  
-- **Google Maps Embed API** – for the map integration  
 
-## Design Concept
-The theme is inspired by the **coastal beauty and vibrant culture of Mabini**. The color palette combines ocean blues, natural hues, and warm tones to reflect its diving heritage and welcoming community. Typography uses **Poppins** for headlines and **Nunito Sans** for readability.
+- HTML5  
+- CSS3  
+- Bootstrap 5  
+- JavaScript (Vanilla)  
+- Google Fonts  
+- Responsive Web Design Principles
 
-## Project Objective
-To design and develop a modern, visually engaging, and user-friendly landing page that promotes Mabini, Batangas as a top travel destination by combining tourism information, cultural highlights, and interactive features.
+---
 
-## Author
-Developed by Jyeana Mauhay
-BSIT Student, Batangas State University – Mabini Campus
-   
+## Project Structure
+
+```
+/project-folder
+│── index.html
+│── styles.css
+│── script.js
+└── README.md
+```
+
+---
+
+## How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/mabini-tourism-website.git
+   ```
+2. Navigate into the project folder:
+   ```bash
+   cd mabini-tourism-website
+   ```
+3. Open `index.html` in any modern web browser.  
+   No additional setup is required.
+
+---
+
+## Future Enhancements
+
+- Photo gallery or media library  
+- Events and festivals section  
+- Local businesses directory  
+- Weather widget or API integration  
+- CMS or admin dashboard integration
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Credits
+
+- Images and video assets from Unsplash and provided resources  
+- Bootstrap Framework  
+- Google Fonts
