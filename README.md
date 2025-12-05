@@ -9,7 +9,7 @@ The site includes smooth scrolling, mobile menu behavior, dynamic active-state n
 ## Live Demo
 Add your deployed link here.
 
-**Live Preview:** https://your-live-demo-link  
+**Live Preview:** https://your-live-demo-link  ](https://landing-page-v3wa.vercel.app)
 **Repository:** This repository
 
 ---
